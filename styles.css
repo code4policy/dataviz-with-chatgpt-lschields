@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#chart-container {
+  width: 100%;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+rect {
+  stroke: #fff;
+}
+
+text.bar-label-inside {
+  fill: whitesmoke;
+  font-size: 16px;
+}
+
+text {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+}
+
+.yaxis text {
+  display:none;
+}
